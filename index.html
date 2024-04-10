@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Luca Hofmann's Profile / EHL Business School</title>
+    <meta charset="utf-8">
+    <meta name="Description" content="This is Luca Hofmann's profile!">
+    <script src="https://kit.fontawesome.com/1f6fdeacc6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Luca.css">
+    
+</head>
+<body>
+
+<div class="container">
+    <h1>Welcome !</h1>
+    <div class="circle-image">
+        <img id="Lucapic" src="../images/CV2.JPEG" alt="Luca Hofmann">
+    </div>
+    <h2>Hello, I am Luca Hofmann</h2>
+    <div class="horizontal-bar">
+        <ul>
+            <li><a href="#description">Description</a></li>
+            <li><a href="#interests">Center of Interest</a></li>
+            <li><a href="#follow">Follow Me</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="../images/CV EN copy.pdf" download="../images/CV EN copy.pdf" target="_blank">Download My CV</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="content">
+    <h2 id="description">Description</h2>
+    <p>
+        I am a motivated, outgoing individual who thrives on teamwork, adapting quickly to diverse situations, and consistently striving to surpass expectations. Having been born in Zürich to a Swiss-German father and French mother, I possess fluency in French, German, English, and Spanish, enabling me to effectively communicate with individuals from diverse cultural backgrounds.Presently, I am pursuing a Bachelor's degree in Business and Hospitality Management at EHL Business School, further enhancing my skills and knowledge in these fields.
+    </p>
+
+    <h2 id="interests">Center of Interest</h2>
+    <ul>
+        <li><h3>Sport<br><img src="../images/rowing.jpeg" alt="Boxing gloves"></h3>
+            <p>Sports are my ultimate passion, driving me to excel and pushing me beyond my limits. From the serene teamwork of rowing to the adrenaline-fueled competition of football, each sport I engage in offers a unique blend of challenge and fulfillment. Whether I'm navigating the water, strategizing on the field, perfecting my swing on the golf course, or honing my skills in the ring, sports empower me to grow, thrive, and embrace the joy of the game.</p>
+        <li><h3>Cooking<br><img src="../images/chef.jpeg" alt="An image of a chef"></h3>
+            <p>In my cooking journey, the blend of stress and spontaneity fuels my passion. It's in these moments that I thrive, navigating challenges with creativity and precision. The exhilarating mix of pressure and problem-solving ignites my determination, driving me to find solutions swiftly. As someone who thrives in dynamic environments, I excel in adapting to unexpected situations and delivering results with efficiency and flair.</p>
+        <li><h3>Travel<br><img src="../images/SA.jpg" alt="A Picture taken on table mountain"></h3>
+            <p>Traveling holds a special place in my heart, woven into the fabric of my life's journey. It's not just about visiting new places; it's about immersing myself in diverse cultures, embracing unique experiences, and forging unforgettable memories along the way.</p>
+    </ul>
+
+    <h2 id="follow">Follow Me</h2>
+    <ul>
+        <li><a href="https://www.instagram.com/luca_hofmann_/" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+        <li><a href="https://www.linkedin.com/in/luca-hofmann-551a80a6/" target="_blank"><i class="fa-brands fa-linkedin"></i>LinkedIn</a></li>
+        <li><a href="https://www.facebook.com/?locale=fr_FR" target="_blank"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+    </ul>
+    <h2 id="contact">Contact Me !</h2> 
+    
+    <div id="contact-info">
+    <div>
+            <p style="text-align: center;">
+                <span style="margin-right: 20px;">Phone: +41 76 804 96 09</span>
+                <span>Mail: luca.hofmann@ehl.ch</span>
+            </p>
+        </div>
+</div>
+
+<script>
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+
+</body>
+</html>

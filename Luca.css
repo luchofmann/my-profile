@@ -1,0 +1,150 @@
+body {
+    background-color: #DED0B6;
+    color: rgb(50, 100, 100);
+    font-family: Times, serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 2;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    text-align: center; 
+}
+
+h1, h2, p, ul, li {
+    text-align: center;
+}
+
+#Lucapic {
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%;
+}
+
+#rowing.jpeg {
+    width: 350px; 
+    height: 250px; 
+    border-radius: 50%;
+}
+
+#chef.jpeg {
+    width: 350px; 
+    height: 550px; 
+    border-radius: 50%;
+}
+
+#SA.jpg {
+    width: 350px; 
+    height: 350px; 
+    border-radius: 50%;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto; 
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff6347;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: black;
+    font-family: Helvetica;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+img {
+    width: 200px;
+}
+
+a {
+    color: rgb(30, 30, 30);
+    font-weight: 700;
+}
+
+h3 {
+    color: rgb(150, 150, 150);
+}
+
+.phone
+.mail {
+    text-align: center;
+    margin-top: 10px;
+}
+
+    
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #f1f1f1; 
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        .horizontal-bar {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin-top: 5px;
+        }
+
+        .horizontal-bar ul {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+        }
+
+        .horizontal-bar li {
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        .circle-image {
+            border-radius: 50%;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 200px;
